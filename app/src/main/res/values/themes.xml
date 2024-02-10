@@ -1,0 +1,12 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Base application theme. -->
+    <style name="Base.Theme.MediLocate" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <item name="colorPrimary">#52528C</item>
+        <!-- Optionally, you can customize other theme attributes here -->
+    </style>
+
+    <style name="Theme.MediLocate" parent="Base.Theme.MediLocate" />
+
+</resources>
