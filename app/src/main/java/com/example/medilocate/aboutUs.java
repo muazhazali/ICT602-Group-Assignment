@@ -13,11 +13,10 @@ public class aboutUs extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_about_us);
-
     }
 
     public void openGitHubLink(View view) {
-        String url = "https://github.com/muazhazali/ICT602_Assignment";
+        String url = "https://github.com/muazhazali/ICT602-Group-Assignment";
         Intent intent = new Intent(Intent.ACTION_VIEW);
         intent.setData(Uri.parse(url));
         startActivity(intent);

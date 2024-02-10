@@ -8,19 +8,20 @@
 
     <TextView
         android:id="@+id/github"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
         android:background="?attr/selectableItemBackground"
         android:clickable="true"
         android:onClick="openGitHubLink"
         android:padding="8dp"
         android:text="GitHub"
+        android:textAlignment="center"
         android:textColor="#4E72B2"
-        android:textSize="18sp"
+        android:textSize="24sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.186" />
@@ -52,15 +53,16 @@
 
     <ImageView
         android:id="@+id/imageView5"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="122dp"
+        android:layout_height="125dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.807"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.292"
-        tools:srcCompat="@tools:sample/avatars" />
+        app:srcCompat="@drawable/admin2"
+        tools:srcCompat="@drawable/admin2" />
 
     <TextView
         android:id="@+id/textView12"
@@ -129,15 +131,16 @@
 
     <ImageView
         android:id="@+id/imageView6"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="124dp"
+        android:layout_height="127dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.184"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.756"
-        tools:srcCompat="@tools:sample/avatars" />
+        app:srcCompat="@drawable/admin4"
+        tools:srcCompat="@drawable/admin4" />
 
     <TextView
         android:id="@+id/textView4"
@@ -154,15 +157,16 @@
 
     <ImageView
         android:id="@+id/imageView7"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="118dp"
+        android:layout_height="128dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.807"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.756"
-        tools:srcCompat="@tools:sample/avatars" />
+        app:srcCompat="@drawable/admin3"
+        tools:srcCompat="@drawable/admin3" />
 
     <TextView
         android:id="@+id/textView14"
@@ -192,15 +196,16 @@
 
     <ImageView
         android:id="@+id/imageView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="129dp"
+        android:layout_height="124dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.184"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.292"
-        tools:srcCompat="@tools:sample/avatars" />
+        app:srcCompat="@drawable/admin1"
+        tools:srcCompat="@drawable/admin1" />
 
     <TextView
         android:id="@+id/textView8"
