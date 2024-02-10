@@ -30,7 +30,7 @@
         android:id="@+id/textView7"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="© 2023 MediLocate. All rights reserved. "
+        android:text="© 2024 MediLocate. All rights reserved. "
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.576"
